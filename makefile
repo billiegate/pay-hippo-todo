@@ -16,4 +16,4 @@ tests: python manage.py test
 
 run: python manage.py run
 
-all: clean install tests run
+all: install migrate tests run
